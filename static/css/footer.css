@@ -1,0 +1,14 @@
+#main-footer{
+    width:100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reserved-content{
+    transition: 1s;
+}
+#reserved-content:hover{
+    font-size: 17px;
+    transition: 1s;
+}

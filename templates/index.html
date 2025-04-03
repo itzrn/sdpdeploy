@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/splash.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/keyfeatures.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}?v={{ time }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}?v={{ time }}">
+<!--    <link rel="stylesheet" href="index.css">-->
+<!--    <link rel="stylesheet" href="splash.css">-->
+<!--    <link rel="stylesheet" href="header.css">-->
+<!--    <link rel="stylesheet" href="main.css">-->
+<!--    <link rel="stylesheet" href="home.css">-->
+<!--    <link rel="stylesheet" href="about.css">-->
+<!--    <link rel="stylesheet" href="contact.css">-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>AutoCheck Outs.</title>
+</head>
+<body>
+    <div class="all-content">
+
+        <div class="intro">
+            <h1 class="logo-header">
+                <span class="logo">AutoCheck</span>
+                <span class="logo">Outs.</span>
+            </h1>
+        </div>
+
+        <div id="header">
+
+            <div id="menu">
+                <button id="menu-btn" onclick="toggleSidebar()">☰</button>
+            </div>
+
+            <div id="webname">
+                <h1 class="refresh-page">AutoCheck Outs.</h1>
+    
+                <nav class="navbar">
+                    <div class="nav-ele"><a href="#home" class="a-ele">Home</a></div>
+                    <div class="nav-ele" id="navkey"><a href="#key-features" class="a-ele">Key-Features</a></div>
+                    <div class="nav-ele"><a href="#about" class="a-ele">About</a></div>
+                    <div class="nav-ele"><a href="#contact" class="a-ele">Contact</a></div>
+                </nav>
+            </div>
+
+            <div id="sidebar">
+                <!-- <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul> -->
+                <a href="#overview">Overview</a>
+                <a href="#features">Features</a>
+                <a href="#technology">Technology Used</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <div id="main">
+
+            <div id="home" class="block sections">
+                <div class="home-content">
+                    <h1>
+                        Welcome to AutoCheck Outs.
+                    </h1>
+    
+                    <p>
+                        Revolutionizing the shopping experience with smart technology. 
+                        Say goodbye to long queues and manual billing — experience seamless, automated checkout with AutoCheck Out.
+                    </p>
+                </div>
+    
+                <!-- <span class="image-hover"></span> -->
+            </div>
+
+            <div id="key-features" class="block sections">
+                <h1>
+                    Key-Features
+                </h1>
+                <div id="keyconatiner">
+                    <div class="item-key block">
+
+                        <div class="key-div1">
+                            <i class="fa-brands fa-intercom fa-key"></i>
+                            <h3>
+                                For Customer
+                            </h3>
+                        </div>
+
+                        <div class="key-div2">
+                            <p>
+                                AutoCheck Out offers a seamless checkout experience by eliminating long queues with 
+                                instant product detection and billing. With AI-powered item recognition and secure mobile 
+                                payments, customers enjoy a fast, hassle-free, and efficient shopping journey.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="item-key block">
+                        <div class="key-div1">
+                            <i class="fa-solid fa-shop fa-key"></i>
+                            
+                            <h3>
+    
+                                For Shop Owners
+                            </h3>
+                        </div>
+
+                        <div class="key-div2">
+                            <p>
+                                Automating billing reduces staff workload and enhances operational efficiency, 
+                                especially during peak hours. Smart analytics provide insights into sales trends, 
+                                while error-free transactions improve customer trust and store loyalty.
+                                
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="item-key block">
+
+                        <div class="key-div1">
+                            <i class="fa-solid fa-microchip fa-key"></i>
+
+                            <h3>
+                                Advanced AI Technology
+    
+                            </h3>
+                        </div>
+
+
+                        <div class="key-div2">
+
+                            <p>
+                                Powered by OpenCV and Vision Transformers, our system delivers high-speed, 
+                                accurate item detection adaptable to various store environments. With continuous learning and robust security, 
+                                it ensures reliability and scalability for future retail needs.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="item-key block">
+
+                        <div class="key-div1">
+
+                            <i class="fa-brands fa-creative-commons-nd fa-key"></i>
+                            <h3>
+                                How It Works?
+    
+                            </h3>
+                        </div>
+
+
+                        <div class="key-div2">
+
+                            <p>
+                                Customers simply place items at checkout, where AI automatically detects them and generates an instant bill.
+                                 Payments are securely processed via the AutoCheck Out app, 
+                                allowing a smooth grab-and-go experience with no waiting time.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="item-key block">
+
+                        <div class="key-div1">
+                            <i class="fa-solid fa-file-contract fa-key"></i>
+                            
+                            <h3>
+    
+                                Cost & Energy Efficiency
+    
+                            </h3>
+
+                        </div>
+
+                        <div class="key-div2">
+
+                            <p>
+                                By minimizing labor costs and operational expenses, 
+                                AutoCheck Out helps store owners save money while enhancing efficiency. Digital receipts promote sustainability, 
+                                and the system’s optimized power usage ensures eco-friendly operations.
+                            </p>
+                            
+                        </div>
+
+
+                    </div>
+                    <div class="item-key block">
+
+                        <div class="key-div1">
+                            <i class="fa-solid fa-burst fa-key"></i>
+                            <h3>
+                                Future Expansion & Integration
+    
+                            </h3>
+
+                        </div>
+                        <div class="key-div2">
+                            <p>
+                                With multi-store support, loyalty program integration, 
+                                and third-party payment compatibility, AutoCheck Out 
+                                is designed for scalability. Stores can customize 
+                                features to match their branding, making it a future-ready solution for modern retail.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="about" class="block sections">
+                <h1>About</h1>
+
+                <div class="about-card block">
+                    <div class="abouttext">
+                        <h2>Our Vision</h2>
+                        <p>
+                            We aim to revolutionize shopping experience with smart technology, making checkout seamless, fast, 
+                            and hassle-free. AutoCheck Out eliminates long queues and manual billing, bringing the future of 
+                            automated transactions to your fingertips.
+                        </p>
+                    </div>
+    
+                    
+                    <div class="aboutimg">
+<!--                        <img src="our-vision.jpg" alt="Our Vision"/>-->
+                        <img src="{{url_for('static', filename='images/our-vision.jpg')}}" alt="Our Vision"/>
+                    </div>
+                </div>
+
+
+                <div class="about-card block">
+                    <div class="aboutimg">
+<!--                        <img src="our-mission.jpg" alt="Our Mission"/>-->
+                        <img src="{{url_for('static', filename='images/our-mission.jpg')}}" alt="Our Mission"/>
+                    </div>
+                    <div class="abouttext">
+                        <h2>Our Mission</h2>
+                        <p>
+                            Our goal is to enhance efficiency and accuracy in billing by integrating advanced item recognition, 
+                            offline functionality, and detailed reporting. We strive to provide a user-friendly, reliable, and 
+                            intelligent solution that simplifies financial management and improves the overall shopping experience.
+    
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="about-card block">
+                    <div class="abouttext">
+                        <h2>Our Story</h2>
+                        <p>
+                            AutoCheck Out was born out of a vision to make shopping more convenient and stress-free. 
+                            Recognizing the need for a smarter billing system, we developed a solution that ensures effortless, 
+                            automated checkout. With continuous innovation and user-focused enhancements, we are dedicated to 
+                            shaping the future of retail transactions.
+                        </p>
+                    </div>
+    
+                    <div class="aboutimg">
+<!--                        <img src="our-story.jpg" alt="Our Story"/>-->
+                        <img src="{{url_for('static', filename='images/our-story.jpg')}}" alt="Our Story"/>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div id="service" class="block sections">
+            </div> -->
+
+            <div id="contact" class="block sections">
+
+                <!-- Contact -->
+                <div class="home-sci contact-wrap">
+                    <a href="#"><i class='bx bxl-facebook contact-icons'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+
+                    <!-- used https://boxicons.com/ for icons -->
+                </div>
+            </div>
+
+            <footer id="main-footer">
+                <div id="reserved-content">
+                    &#169; 2025 AutoCheck Outs. All rights reserved.
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/splash.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/header.js') }}"></script>
+<!--    <script src="index.js"></script>-->
+<!--    <script src="splash.js"></script>-->
+<!--    <script src="header.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,56 @@
+#home{
+    position: relative;
+    color: azure;
+    height: 90.5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url("../images/home-background-image6p.png") no-repeat;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(30deg, rgba(0,0,0,1) 50%, rgb(20, 32, 159) 100%); */
+    background-size: cover;
+    background-position: center;
+    padding: 0 10%;
+}
+
+#home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.home-content{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 28.4px;
+}
+
+/* .image-hover{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 600px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+} */
+/* .image-hover:hover{
+    background: black;
+    opacity: 0.7;
+} */

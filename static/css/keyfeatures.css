@@ -1,0 +1,84 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+#key-features{
+    width: 100%;
+    color: whitesmoke;
+    /* background-color: green; */
+    margin-top: 92px;
+    margin-bottom: 92px;
+    display: flex;
+    /* height: 1000px; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+
+    
+}
+#key-features h1{
+    font-size: 50px;
+}
+
+#keyconatiner{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+
+.item-key{
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 390px;
+    border-radius: 20px;
+    backdrop-filter:blur(30px);
+    box-shadow: 0px 0px 50px rgba(253,187,45,1);
+    gap: 30px;
+    transition: 1s;
+    transition: transform 0.5s ease-in-out;
+}
+
+.item-key:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 100px rgba(253,187,45,1);
+    transition: 1s;
+}
+
+.fa-key{
+    font-size: 40px;
+
+}
+
+.key-div1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+
+.key-div1 h3{
+    width: 100%;
+}
+
+/* .fa-key:hover{
+    font-size: 45px;
+    transition: 0.6s;
+} */
+
+.key-div2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
